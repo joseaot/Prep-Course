@@ -164,7 +164,7 @@ function elevar(num, exponent) {
 function redondearNumero(num) {
   // Redondea "num" al entero más próximo y devuélvelo
   // Tu código:
-  return Math.random(num);
+  return Math.round(num);
   
 }
 
@@ -208,8 +208,7 @@ function combinarNombres(nombre, apellido) {
   // Devuelve "nombre" y "apellido" combinados en una string y separados por un espacio.
   // Ejemplo: "Soy", "Henry" -> "Soy Henry"
   // Tu código:
-  var combinado = 'nombre' + ' ' + 'apellido';
-  return combinado;
+  return nombre+ ' ' + apellido;
   
 }
 
