@@ -1,0 +1,7 @@
+Conceptos:
+
+Objetos: En JavaScript, un objeto es un entidad independiente con propiedades y tipos.
+Propiedades: JavaScript está diseñado en un paradigma simple basado en objetos. Un objeto es una colección de propiedades, y una propiedad es una asociación entre un nombre (o clave) y un valor. El valor de una propiedad puede ser una función, en cuyo caso la propiedad es conocida como un método.
+Métodos: Un metodo es una función la cual es propiedad de un Objeto. Existen dos tipos de métodos: Métodos de Instancia los cuales son tareas integradas realizadas por la instacia de un objeto, y los Métodos Estáticos que son tareas que pueden ser llamadas directamente en el constructor de un objeto.
+Bucle for…in: Los bucles For son comúnmente utilizados para contar un cierto número de iteraciones para repetir una sentencia. Puedes utilizar una sentencia break para salir del bucle antes que la expresión de condición devuelva false .
+Notación de puntos vs notación de corchetes: Notacion de puntos es la mas utilizada, y la notacion de corchete es mas utilizada en recorrer objetos y cuando la propiedad es un string 
