@@ -231,17 +231,15 @@ function breakStatement(numero) {
   let arrayNumero=[];
   let suma=numero;
   for(var i=0; i<10; i++){
-    suma= suma+2
-    if(suma===i){
-      break;
-    }else{
-      arrayNumero.push(suma);
-    }
+      suma+= 2;
+      if(suma===i){
+          break;
+      }else{
+          arrayNumero.push(suma);
+      }
   }
-  if(arrayNumero.length<10){
-    return 'Se interrumpió la ejecución';
-  } else if(arrayNumero.length===10){
-    return arrayNumero;
+  if(arrayNumero.length!==10){
+      return 'Se interrumpió la ejecución';
   }
   return arrayNumero;
 
