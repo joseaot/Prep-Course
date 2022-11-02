@@ -1,0 +1,15 @@
+prototype:
+
+Es un modelo original que posee todas las cualidades técnicas y todas las características de funcionamiento del nuevo producto. 
+Puede darse el caso en que se precisan varios prototipos para hacer comprobaciones.
+
+
+
+
+
+Constructors (de Clases):
+
+Un constructor es un método que se ejecuta de manera automática al instanciar un objeto de una clase. 
+El constructor tiene como finalidad la incialización de las variables de la clase y posiblemente ejecutar algunos de los métodos de la clase.
+
+
